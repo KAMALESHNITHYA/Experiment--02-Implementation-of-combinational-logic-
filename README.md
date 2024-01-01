@@ -54,6 +54,7 @@ A combinational circuit is a circuit in which the output depends on the present 
 
 Program to implement the given logic function and to verify its operations in quartus using Verilog programming.
 
+```
 module combinationalcircuit(f1,a,b,c,d);
 input a,b,c,d;
 output f1;
@@ -69,6 +70,7 @@ assign x4=abar&b&c&d;
 assign x5=b&cbar&d;
 assign f1=x1|x2|x3|x4|x5;
 endmodule
+```
 
 ## RTL realization
 ![image](https://github.com/KAMALESHNITHYA/Experiment--02-Implementation-of-combinational-logic-/assets/145743119/cde7e792-4b8d-4d69-a941-b896e459cc67)
