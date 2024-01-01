@@ -11,6 +11,7 @@ To implement the given logic function verify its operation in Quartus using Veri
  
 ## Equipments Required: 
 Hardware – PCs, Cyclone II , USB flasher 
+
 Software – Quartus prime
 
 
