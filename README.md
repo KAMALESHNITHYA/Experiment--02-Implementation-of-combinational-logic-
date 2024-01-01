@@ -53,8 +53,8 @@ A combinational circuit is a circuit in which the output depends on the present 
 ## Program:
 
 Program to implement the given logic function and to verify its operations in quartus using Verilog programming.
- module combinationalcircuit(f1,a,b,c,d);
 
+module combinationalcircuit(f1,a,b,c,d);
 input a,b,c,d;
 output f1;
 wire abar,bbar,cbar,dbar,x1,x2,x3,x4,x5;
